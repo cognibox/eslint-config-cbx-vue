@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-cbx-vue",
+  "version": "1.0.0",
+  "description": "Eslint config for all Cognibox projects using vue",
+  "main": "index.js",
+  "author": "Cognibox",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "babel-eslint": "^10.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.0.0"
+  }
+}
