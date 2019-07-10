@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-cbx-vue",
+  "name": "@cognibox/eslint-config-cbx-vue",
   "version": "1.0.0",
   "description": "Eslint config for all Cognibox projects using vue",
   "main": "index.js",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint-config-cbx": "git+https://github.com/cognibox/eslint-config-cbx.git",
+    "@cognibox/eslint-config-cbx": "^1.0.0",
     "eslint-plugin-vue": "^5.2.2"
   }
 }

@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'cbx',
+    '@cognibox/eslint-config-cbx',
     'plugin:vue/recommended',
   ],
   parserOptions: {
@@ -12,7 +12,7 @@ module.exports = {
     es6: true,
     browser: true,
   },
-  plugins: [	
-    'vue',	
+  plugins: [
+    'vue',
   ],
 };
