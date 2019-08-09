@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    es6: true,
+    browser: true,
+  },
   extends: [
     '@cognibox/eslint-config-cbx',
     'plugin:vue/recommended',
@@ -8,11 +12,10 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: 'module',
   },
-  env: {
-    es6: true,
-    browser: true,
-  },
   plugins: [
     'vue',
   ],
+  rules: {
+    'vue/valid-v-for': 'off',
+  },
 };
