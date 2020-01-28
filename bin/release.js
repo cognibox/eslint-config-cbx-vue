@@ -30,5 +30,5 @@ inquirer
 
     execSync(`npm install && git commit -am "release ${answers.version}" && git push ${remote} HEAD:master`);
     execSync(`git tag ${answers.version} && git push ${remote} ${answers.version}`);
-    execSync(`npm publish --tag ${answers.version}`);
+    execSync(`npm publish`);
   });
