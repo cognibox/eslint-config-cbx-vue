@@ -1,6 +1,6 @@
 {
   "name": "@cognibox/eslint-config-cbx-vue",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Eslint config for all Cognibox projects using vue",
   "main": "index.js",
   "author": "Cognibox",
@@ -16,8 +16,9 @@
     "eslint": "^5.0.0 || ^6.0.0"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.3",
     "@cognibox/eslint-config-cbx": "^1.1.2",
+    "@cognibox/eslint-vue-require-component-key": "^1.0.0",
+    "babel-eslint": "^10.0.3",
     "eslint-plugin-vue": "^6.1.2"
   },
   "files": [
