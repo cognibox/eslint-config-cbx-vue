@@ -17,6 +17,6 @@ module.exports = {
   ],
   rules: {
     'vue/valid-v-for': 'off',
-    '@cognibox/eslint-vue-require-component-key': 'error',
+    '@cognibox/vue-require-component-key/vue-require-component-key': 'error',
   },
 };
