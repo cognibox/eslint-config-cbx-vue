@@ -17,5 +17,6 @@ module.exports = {
   ],
   rules: {
     'vue/valid-v-for': 'off',
+    'eslint-vue-require-component-key',
   },
 };
