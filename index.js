@@ -17,6 +17,5 @@ module.exports = {
   ],
   rules: {
     'vue/valid-v-for': 'off',
-    '@cognibox/vue-require-component-key/vue-require-component-key': 'error',
   },
 };
