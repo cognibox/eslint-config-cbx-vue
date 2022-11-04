@@ -17,6 +17,15 @@ module.exports = {
     '@cognibox/vue-require-component-key',
   ],
   rules: {
-    'vue/valid-v-for': 'off',
+    "vue/require-explicit-emits": ["warn", {
+      "allowProps": false
+    }],
+    "vue/require-name-property": "warn",
+    "vue/match-component-file-name": "warn",
+    "vue/v-slot-style": ["warn", {
+      "atComponent": "shorthand",
+      "default": "shorthand",
+      "named": "shorthand"
+    }]
   },
 };
