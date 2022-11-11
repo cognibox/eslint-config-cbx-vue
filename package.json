@@ -3,11 +3,20 @@
   "version": "1.4.0",
   "description": "Eslint config for all Cognibox projects using vue",
   "main": "index.js",
+  "homepage": "https://github.com/cognibox/eslint-config-cbx-vue#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cognibox/eslint-config-cbx-vue.git"
+  },
   "author": "Cognibox",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cognibox/eslint-config-cbx-vue/issues"
+  },
   "keywords": [
     "eslint",
-    "config"
+    "config",
+    "vue"
   ],
   "peerDependencies": {
     "eslint": "^6.2.0 || ^7.0.0 || ^8.0.0"
